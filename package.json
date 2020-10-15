@@ -1,0 +1,17 @@
+{
+	"name": "yoursite.com",
+	"version": "0.1.0",
+	"description": "Your site name.",
+	"homepage": "https://yoursite.com",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Your Name",
+			"email": "contact@youremailaddress"
+		}
+	],
+	"dependencies": {
+		"greenhat-ssg": "^0.14.1"
+	}
+}

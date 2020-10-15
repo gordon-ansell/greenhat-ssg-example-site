@@ -1,0 +1,57 @@
+# Site name.
+name: Your Site Name
+
+# Site description.
+description: Your site description.
+
+# Site keywords. 
+keywords: Nonsense, Wittering
+
+# Site header logo.
+headerLogo: 
+  url: /assets/images/logo-60x60.jpg
+  alt: Placeholder logo.
+
+# The site's default article image (used if an article has no images).
+defaultArticleImage: /assets/images/image-placeholder-500x500.jpg
+
+# Site copyright statement.
+copyright: "Copyright &copy; Me, 2020."
+
+# Site publisher.
+publisher:
+  name: Big Publisher
+  url: /
+  logo: /assets/images/image-placeholder-500x500.jpg
+
+# Site authors.
+authors:
+  Your Name:
+    name: Your Name
+    url: /about/
+
+  # System plugins to load.
+sysPlugins: 
+  - '.articleHandler.js' 
+  - '.menuHandler.js'
+  - '.scssHandler.js' 
+
+# Is this an SSL (https) site?
+ssl: true
+
+# Logging level.
+msgLevel: notice
+
+# The production domain name.
+prodDomain: yourdomain.com
+
+# Theme control.
+theme:
+  default: base
+  dark: greenhat-dark
+
+# Articles per page on the home pages.
+articlesPerPage: 30
+
+# Maximum posts in RSS feed.
+postsInFeed: 30
