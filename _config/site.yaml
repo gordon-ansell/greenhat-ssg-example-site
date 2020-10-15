@@ -48,7 +48,7 @@ prodDomain: yourdomain.com
 # Theme control.
 theme:
   default: base
-  dark: greenhat-dark
+  dark: dark
 
 # Articles per page on the home pages.
 articlesPerPage: 30

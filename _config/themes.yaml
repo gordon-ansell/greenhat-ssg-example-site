@@ -11,28 +11,15 @@ base:
     code-text: "#00ff80"
     code-bg: "#003d00"
     bq-text: "#555555"
-greenhat:
-  name: Greenhat Standard (Light) Theme
+dark:
+  name: Dark Theme
   colours:
-    bg-primary: "#FFFFFF"
-    bg-secondary: "#fff4ea"
-    text-primary: "#373A3C"
-    text-secondary: "#207871"
-    text-secondary-offset: "#B56357"
-    border: "#207871"
-    muted: "#F4F4F4"
-    code-text: "#00ff80"
-    code-bg: "#003d00"
-    bq-text: "#555555"
-greenhat-dark:
-  name: Greenhat Dark Theme
-  colours:
-    bg-primary: "#373A3C"
-    bg-secondary: "#2F4F4F"
+    bg-primary: "#000000"
+    bg-secondary: "#585abf"
     text-primary: "#FFFFFF"
-    text-secondary: "#3de0d3"
+    text-secondary: "#84a6e8"
     text-secondary-offset: "#e0897b"
-    border: "#3de0d3"
+    border: "#585abf"
     muted: "#0e0f0f"
     code-text: "#00ff80"
     code-bg: "#003d00"
