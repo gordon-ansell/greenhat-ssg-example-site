@@ -12,6 +12,6 @@
 		}
 	],
 	"dependencies": {
-		"greenhat-ssg": "^0.14.1"
+		"greenhat-ssg": "*"
 	}
 }
