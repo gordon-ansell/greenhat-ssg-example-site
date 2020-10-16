@@ -1,3 +1,7 @@
+##########################
+# Site details.
+##########################
+
 # Site name.
 name: Your Site Name
 
@@ -7,16 +11,18 @@ description: Your site description.
 # Site keywords. 
 keywords: Nonsense, Wittering
 
-# Site header logo.
-headerLogo: 
-  url: /assets/images/logo-60x60.jpg
-  alt: Placeholder logo.
-
-# The site's default article image (used if an article has no images).
-defaultArticleImage: /assets/images/image-placeholder-500x500.jpg
-
 # Site copyright statement.
 copyright: "Copyright &copy; Me, 2020."
+
+# The production domain name.
+prodDomain: yourdomain.com
+
+# Is this an SSL (https) site?
+ssl: true
+
+##########################
+# Publisher and authors.
+##########################
 
 # Site publisher.
 publisher:
@@ -30,20 +36,34 @@ authors:
     name: Your Name
     url: /about/
 
-  # System plugins to load.
+##########################
+# Images.
+##########################
+
+# Site header logo.
+headerLogo: 
+  url: /assets/images/logo-60x60.jpg
+  alt: Placeholder logo.
+
+# The site's default article image (used if an article has no images).
+defaultArticleImage: /assets/images/image-placeholder-500x500.jpg
+
+##########################
+# Plugins.
+##########################
+
+# System plugins to load.
 sysPlugins: 
   - '.articleHandler.js' 
   - '.menuHandler.js'
   - '.scssHandler.js' 
 
-# Is this an SSL (https) site?
-ssl: true
+##########################
+# Control.
+##########################
 
 # Logging level.
 msgLevel: notice
-
-# The production domain name.
-prodDomain: yourdomain.com
 
 # Theme control.
 theme:
